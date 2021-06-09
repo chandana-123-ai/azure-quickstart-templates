@@ -1,0 +1,35 @@
+#include<stdio.h>
+void main()
+{
+int p,c,b,m,co;
+float per;
+printf("enter marks:");
+scanf("%d%d%d%d%d",&p,&c,&b,&m,&co);
+per=(p+c+b+m+co)\5.0;
+printf("percentage =%.2f\n",per);
+if(per>=90)
+{
+printf("GradeA");
+}
+elseif(per>=80)
+{
+printf("GradeB");
+}
+elseif(per>=70)
+{
+printf("GradeC");
+}
+elseif(per>=60)
+{
+printf("GradeD");
+}
+elseif(per>=40)
+{
+printf("GradeE");
+}
+else
+{
+printf("GradeF");
+}
+return 0;
+}
